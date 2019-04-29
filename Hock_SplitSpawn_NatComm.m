@@ -8,6 +8,8 @@
 % The code needs to load three data files: ACROPsplits.mat, ACROPm1.mat,
 % ACROPm2.mat; and access two function files: scalebysize, zerodiag
 
+% Data files can be downloaded from 10.5281/zenodo.2653244
+
 % Split spawning%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % First, calculate everything for split spawning scenarios, using 60:40
