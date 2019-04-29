@@ -1,0 +1,17 @@
+library(readr)
+
+Splitspawnfigs <- read_csv("Splitspawnfigs.csv")
+
+boxplot(Fig2A~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
+boxplot(Fig2B~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
+boxplot(Fig2C~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
+
+boxplot(Fig3A~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
+boxplot(Fig3B~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
+boxplot(Fig3C~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
+
+boxplot(Fig4A~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
+boxplot(Fig4B~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
+boxplot(Fig4C~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
+
+boxplot(Fig5A~shelf*sector,data=Splitspawnfigs, notch=TRUE,col=(c("forestgreen","chartreuse1","darkolivegreen4","blue","lightblue","darkblue","chocolate2","gold","goldenrod4")))
